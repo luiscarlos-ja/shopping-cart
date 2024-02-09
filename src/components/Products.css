@@ -45,3 +45,26 @@
     object-fit: cover;
     background: #fff;
   }
+
+  .products button {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+  }
+
+  .products button:hover {
+    background: blueviolet;
+    color: #fff;
+  }
+
+  .products .button-added {
+    background: green;
+    color: #fff;
+  }
+
+  .products .button-added:hover {
+    background: darkslateblue;
+  }

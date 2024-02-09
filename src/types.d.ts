@@ -21,3 +21,15 @@ interface FilterContextType {
   filters: FilterProducts;
   setFilters: React.Dispatch<React.SetStateAction<FilterProducts>>;
 }
+
+interface CartContextType {
+  cart: Cart[];
+  addToCart: (product: Product) => void;
+  removeFromCart: (product: Product) => void;
+  clearCart: () => void;
+}
+
+interface Cart {
+  product: Product;
+  quantity: number;
+}
