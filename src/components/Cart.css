@@ -54,3 +54,19 @@
     height: 100%;
     display: block;
   }
+
+  .cart button {
+    background: darkcyan;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .cart .button-clear {
+    background: darkslateblue;
+  }
+
+  .cart .button-clear:hover {
+    background: darkred;
+  }

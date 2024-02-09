@@ -1,17 +1,15 @@
-# Enunciado
+**Ecommerce**
 
-Ecommerce
+- [x] Display a list of products fetched from a JSON.
+- [x] Add a filter by category.
+- [x] Add a filter by price.
 
-- [x] Muestra una lista de productos que vienen de un JSON
-- [x] Añade un filtro por categoría
-- [x] Añade un filtro por precio
+Make use of `useContext` to avoid passing unnecessary props.
 
-Haz uso de useContext para evitar pasar props innecesarias.
+**Shopping Cart:**
 
-Carrito:
-
-- [x] Haz que se puedan añadir los productos a un carrito.
-- [x] Haz que se puedan eliminar los productos del carrito.
-- [x] Haz que se puedan modificar la cantidad de productos del carrito.
-- [x] Sincroniza los cambios del carrito con la lista de productos.
-- [x] Guarda en un localStorage el carrito para que se recupere al recargar la página. (da puntos)
+- [x] Allow adding products to the cart.
+- [x] Enable removing products from the cart.
+- [x] Allow modifying the quantity of products in the cart.
+- [x] Synchronize cart changes with the product list.
+- [x] Save the cart in localStorage to restore it upon page reload (bonus points) .
